@@ -31,6 +31,7 @@ input {
             type => "tcp"
             port => 5000
             mode => "server"
+            codec => "json"
       }
 }
 
